@@ -129,6 +129,7 @@ git remote set-url origin https://github.com/nicolasmorvant/booki.git
 | | Intégration du header de la version desktop |
 |||
 ||  Ajout du formulaire de recherche|
+|||
 ||  Ajout des filtres|
 |||
 |||
