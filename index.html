@@ -17,51 +17,52 @@
 <body>
     <div class="main-container">
         <header class="grandeMarge">
-            <div class="logo">
+            <div id="logo">
                 <img src="./images/logo/Booki.png" alt="Logo du site Booki">
             </div>
             <nav>
                 <ul>
                     <li>
-                        <a href="#hebergMarseille">Hébergements</a>
+                        <a href="#hebergements">Hébergements</a>
                     </li>
                     <li>
-                        <a href="#activitesMarseille">Activités</a>
+                        <a href="#activites">Activités</a>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <div class="Recherche">
-                <div class="titre grandeMarge">
+            <div id="recherche">
+                <div id="titre" class="grandeMarge">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p class="sous-titre">En plein centre-ville ou en pleine nature</p>
                 </div>
-                <form action="" method="POST" class="grandeMarge">
+                <form action="" method="POST" id="formulaireRecherche" class="grandeMarge">
                     <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
                     <input type="search" placeholder="Marseille, France">
                     <button id="boutonRecherche" disabled title="Ce bouton est désactivé">Rechercher</button>
                 </form>
-                <div class="filtres grandeMarge">
+                <div id="filtres" class="grandeMarge">
                     <h3>Filtres</h3>
                     <button><i class="fa-solid fa-money-bill-wave"></i> Économique</button>
                     <button><i class="fa-solid fa-person"></i> Familial</button>
                     <button><i class="fa-solid fa-heart"></i> Romantique</button>
                     <button><i class="fa-solid fa-fire"></i> Nos pépites</button>
                 </div>
-                <div class="infos grandeMarge">
+                <div id="infos" class="grandeMarge">
                     <i class="fa-solid fa-info"></i>
                     <span>Plus de 500 logements sont disponibles dans cette ville</span>
                 </div>
             </div>
-            <div class="hebergements-and-populaires">
-                <section class="hebergements">
+            <div id="hebergements-and-populaires" class="grandeMarge">
+                <!-- HÉBERGEMENTS-->
+                <section id="hebergements">
                     <h2 class="section-title grandeMarge" id="hebergMarseille">Hébergements à Marseille</h2>
                     <!-- Première ligne -->
-                    <div class="first-row grandeMarge">
+                    <div id="first-row" class="grandeMarge">
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/hotel_du_port.jpg" alt="Image de la chambre d'hôtel de l'hôtel du port" class="petiteMarge">
+                                <img src="./images/hebergements/hotel_du_port.jpg" alt="Image de la chambre d'hôtel de l'hôtel du port" title="Chambre d'hôtel de l'hôtel du port" class="petiteMarge">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title petiteMarge">Hôtel du port</h3>
@@ -80,7 +81,7 @@
                         </a>
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/chez_amina.jpg" alt="Image de la chambre d'hôtel Chez Amina" class="petiteMarge">
+                                <img src="./images/hebergements/hotel_chez_amina.jpg" alt="Image de la chambre d'hôtel Chez Amina" title="Chambre d'hôtel Chez Amina" class="petiteMarge">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title petiteMarge">Hôtel Chez Amina</h3>
@@ -99,7 +100,7 @@
                         </a>
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/hotel_les_mouettes.jpg" alt="Image de la chambre d'hôtel Les mouettes" class="petiteMarge">
+                                <img src="./images/hebergements/hotel_les_mouettes.jpg" alt="Image de la chambre d'hôtel Les mouettes" title="Chambre d'hôtel Les mouettes" class="petiteMarge">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title petiteMarge">Hôtel Les mouettes</h3>
@@ -118,10 +119,10 @@
                         </a>
                     </div>
                     <!-- Deuxième ligne -->
-                    <div class="second-row grandeMarge">
+                    <div id="second-row" class="grandeMarge">
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/hotel_de_la_mer.jpg" alt="Image de la chambre d'hôtel de la mer" class="petiteMarge">
+                                <img src="./images/hebergements/hotel_de_la_mer.jpg" alt="Image de la chambre d'hôtel de la mer" title="Chambre d'hôtel de la mer" class="petiteMarge">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title petiteMarge">Hôtel de la mer</h3>
@@ -140,7 +141,7 @@
                         </a>
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/auberge_canebiere.jpg" alt="Image de la chambre de l'auberge La Canebière" class="petiteMarge">
+                                <img src="./images/hebergements/auberge_canebiere.jpg" alt="Image de la chambre de l'auberge La Canebière" title="Chambre de l'auberge La Canebière" class="petiteMarge">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title petiteMarge">Auberge La Canebière</h3>
@@ -159,7 +160,7 @@
                         </a>
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/auberge_panier.jpg" alt="Image de la chambre de l'auberge Le Panier" class="petiteMarge">
+                                <img src="./images/hebergements/auberge_panier.jpg" alt="Image de la chambre de l'auberge Le Panier" title="Chambre de l'auberge Le Panier" class="petiteMarge">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title petiteMarge">Auberge Le Panier</h3>
@@ -179,7 +180,8 @@
                     </div>
                     <a href="#" id="lienAfficherPlus">Afficher plus</a>
                 </section>
-                <section class="populaires">
+                <!-- POPULAIRES -->
+                <section id="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
@@ -187,7 +189,7 @@
                     <div class="populaires-cards">
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/hotel_soleil_matin.jpg" alt="Image de la chambre d'hôtel du soleil du matin" title="Chambre d'hôtel du soleil du matin">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Le soleil du matin</h3>
@@ -206,7 +208,7 @@
                         </a>
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/aw-creative.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/hotes_coeur_eau.jpg" alt="Image de la chambre d'hôtes au coeur de l'eau" title="Chambre d'hôtes au coeur de l'eau">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Chambres d’hôtes Au cœur de l’eau</h3>
@@ -225,7 +227,7 @@
                         </a>
                         <a href="#">
                             <article class="card">
-                                <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <img src="./images/hebergements/hotel_bleu_et_blanc.jpg" alt="Image de la chambre d'hôtel bleu et blanc" title="Chambre d'hôtel bleu et blanc">
                                 <div class="card-content">
                                     <div class="card-txt">
                                         <h3 class="card-title">Hôtel Bleu et Blanc</h3>
@@ -245,6 +247,44 @@
                     </div>
                 </section>
             </div>
+            <!-- ACTIVITÉS-->
+            <section id="activites" class="grandeMarge">
+                <h2 class="section-title grandeMarge" >Activités à Marseille</h2>
+                <div id="resultatsActivites">
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/vieux_port.jpg" alt="Photo du vieux port" title="Le Vieux-Port">
+                            <div class="card-content">
+                                <h3 class="card-title">Vieux-Port</h3>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/fort_pomegues.jpg" alt="Photo du fort de Pomègues">
+                            <div class="card-content">
+                                <h3 class="card-title">Fort de Pomègues</h3>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/parc_calanques.jpg" alt="Photo du Parc national des Calanques" title="Le Parc national des Calanques">
+                            <div class="card-content">
+                                <h3 class="card-title">Parc national des Calanques</h3>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article class="card">
+                            <img src="./images/activites/notre_dame_de_la_garde.jpg" alt="Photo de Notre-Dame-de-la-Garde" title="Notre-Dame-de-la-Garde">
+                            <div class="card-content">
+                                <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </section>
         </main>
         <footer>
 
