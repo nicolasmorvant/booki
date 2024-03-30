@@ -26,7 +26,7 @@
 | ------ | ------ |
 |**Fonction recherche**| _ Les usagers pourront **rechercher des hébergements dans la ville de leur choix**. |
 || _ Le champ de recherche est **un champ de saisie**, le texte doit donc pouvoir être édité par l’utilisateur.|
-|  | _ Il faut **englober ce champ dans un formulaire**. La partie Recherche ne doit pas être fonctionnelleil s’agit d’une première version pour valider l’interface. |
+|  | _ Il faut **englober ce champ dans un formulaire**. La partie Recherche ne doit pas être fonctionnelle, il s’agit d’une première version pour valider l’interface. |
 |||
 |**Liens “Hébergements” et “Activités”**|**Les textes “Hébergements”** et **“Activités”**, situés dans l’en-tête, sont des liens. Ils doivent mener respectivement vers la section “Hébergements à Marseille” et **“Activités à Marseille”.|
 |||
