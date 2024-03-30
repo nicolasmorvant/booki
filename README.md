@@ -61,3 +61,6 @@ git remote set-url origin https://github.com/nicolasmorvant/booki.git
 |||
 | 30/04/2024 | Ajout de la maquette  |
 | | Document disponible dans ```/docs``` |
+|||
+| | Intégration du header de la version desktop |
+|||
