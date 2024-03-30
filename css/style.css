@@ -314,20 +314,20 @@ a
         width: 32%;
     }
 
-    #populaires-title
+    .populaires-title
     {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    #populaires-cards .card
+    .populaires-cards .card
     {
         display: flex;
         margin-top: 33px;
     }
 
-    #populaires-cards img
+    .populaires-cards img
     {
         width: 33%;
         height: 136px;
@@ -335,7 +335,7 @@ a
         border-bottom-left-radius: 20px;
     }
 
-    #populaires-cards .card-content
+    .populaires-cards .card-content
     {
         width: 67%;
         padding-left: 15px;
@@ -345,18 +345,18 @@ a
         box-sizing: border-box;
     }
 
-    #populaires-cards .card-title
+    .populaires-cards .card-title
     {
         margin-top: 10px;
         margin-bottom: 4px;
     }
 
-    #populaires-cards .card-subtitle
+    .populaires-cards .card-subtitle
     {
         margin: 0;
     }
 
-    #populaires-cards .card-rating
+    .populaires-cards .card-rating
     {
         margin-bottom: 5px;
     }
@@ -379,18 +379,38 @@ a
 
     #resultatsActivites a
     {
-        width: 30%;
+        width: 23%;
+        max-height: 440px;
     }
 
     #resultatsActivites .card
     {   
-        
+        height: 100%;
+        border-radius: 20px;
+        padding: 0;
     }
 
     #resultatsActivites .card img
     {
+        object-fit: cover;
         width: 100%;
-        height: auto;
+        height: 88%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    #resultatsActivites .card-content
+    {
+        height: 12%;
+        overflow: scroll;
+    }
+
+    #resultatsActivites .card-title
+    {
+        font-weight: 700;
+        font-size: 16px;
+        padding: 12px;
+        
     }
 
 /* FIN ACTIVITES */
