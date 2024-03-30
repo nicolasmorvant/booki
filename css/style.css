@@ -7,13 +7,17 @@
     outline: none;
 }
 
+
 /* CHARTE GRAPHIQUE */
-:root 
-{
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
-}
+    
+    :root 
+    {
+        --main-color: #0065FC;
+        --main-bg-color: #F2F2F2;
+        --filter-bg-color: #DEEBFF;
+    }
+
+/* FIN CHARTE GRAPHIQUE */
 
 .fa-solid 
 {
@@ -415,6 +419,36 @@ a
 
 /* FIN ACTIVITES */
 
+
+/* FOOTER */
+
+    footer
+    {
+        display: flex;
+        justify-content: flex-start;
+        background-color: var(--main-bg-color);
+    }
+
+    #propos, #heberge, #assistance
+    {
+        flex-basis: 33%;
+        padding: 20px;
+    }
+
+    footer h3
+    {
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    footer li:not(:last-child)
+    {
+        margin-bottom: 15px;
+    }
+    
+
+/* FIN FOOTER */
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
