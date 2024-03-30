@@ -134,7 +134,7 @@ header nav ul li:hover
 /* Marge générique du champ de recherche à appliquer aux 4 éléments consituant la div.recherche */
 .marginRecherche
 {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 h1
@@ -221,7 +221,21 @@ form input::placeholder
     background-color: var(--filter-bg-color);
 }
 
+/* Partie infos */
+.fa-info
+{
+    border: 2px solid #D9D9D9;
+    padding: 5px 10px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
 
+.infos p
+{
+    font-weight: 400;
+    font-size: 16px;
+}
 
 
 
