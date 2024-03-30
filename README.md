@@ -28,7 +28,7 @@
 || _ Le champ de recherche est **un champ de saisie**, le texte doit donc pouvoir être édité par l’utilisateur.|
 |  | _ Il faut **englober ce champ dans un formulaire**. La partie Recherche ne doit pas être fonctionnelle, il s’agit d’une première version pour valider l’interface. |
 |||
-|**Liens “Hébergements” et “Activités”**|**Les textes “Hébergements”** et **“Activités”**, situés dans l’en-tête, sont des liens. Ils doivent mener respectivement vers la section “Hébergements à Marseille” et **“Activités à Marseille”.|
+|**Liens “Hébergements” et “Activités”**|**Les textes “Hébergements”** et **“Activités”**, situés dans l’en-tête, sont des liens. Ils doivent mener respectivement vers la section “Hébergements à Marseille” et “Activités à Marseille”.|
 |||
 |**Cartes hébergements et activités**|_ **Chaque carte** d’hébergement ou d’activité **devra être cliquable** dans son intégralité (pas uniquement le titre).|
 ||_ Pour l’instant, les liens sont vides. On peut utiliser un attribut `href=”#”` pour simuler la présence d’un lien.|
@@ -133,3 +133,5 @@ git remote set-url origin https://github.com/nicolasmorvant/booki.git
 ||  Ajout des filtres|
 |||
 || Ajout de la section hebergements|
+|||
+|| Ajout de la section activites|
