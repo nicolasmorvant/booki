@@ -132,4 +132,4 @@ git remote set-url origin https://github.com/nicolasmorvant/booki.git
 |||
 ||  Ajout des filtres|
 |||
-|||
+|| Ajout de la section hebergements|
