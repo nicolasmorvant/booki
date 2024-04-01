@@ -138,4 +138,6 @@ git remote set-url origin https://github.com/nicolasmorvant/booki.git
 |||
 || Ajout du footer|
 |||
-| 31/04/2024 ||
+| 31/03/2024 | Mise en place de la partie responsive dans ```css/styles.css```|
+|||
+| 1/04/2024 | Finalisation de la partie responsive pour mobiles|
