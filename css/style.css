@@ -1,10 +1,14 @@
 *
 {
+    /* POLICE */
     font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
+
+    /* RESET */
+    /* La propriété box-sizing permet de spécifier si la marge intérieure (padding) et la bordure (border) d'un élément doivent compter dans sa dimension réelle */
+    box-sizing: border-box; /* Priorité à la taille de la boite, le contenu doit s'adapter*/
     margin: 0;
     padding: 0;
-    outline: none;
+    outline: none;  /* Contour */
 }
 
 
@@ -220,11 +224,6 @@ a
         align-items: center;
     }
 
-    #filtres i
-    {
-        margin-right: 5px;
-    }
-
     #filtres button
     {
         font-weight: 700;
@@ -239,6 +238,13 @@ a
     #filtres button:hover
     {
         background-color: var(--filter-bg-color);
+    }
+
+    #filtres button i
+    {
+        max-width: 22px;
+        min-width: 22px;
+        margin-right: 5px;
     }
 
     /* Partie infos */
@@ -502,9 +508,15 @@ a
 
                 #filtres button
                 {
-                    margin-left: 0;
                     margin-top: 15px;
+                    margin-left: 0;
                 }
+
+                #filtres button:not(:last-child)
+                {
+                    margin-right: 10px;
+                }
+
 
             /* FIN FILTRES */
 
@@ -689,8 +701,10 @@ a
                         display: flex;
                         align-items: center;
                         width: 48%;
+                        min-width: 150px; /* Taille raisonnable pour l'utilisateur */
                         text-align: left;
                         padding-left: 20px;
+                        margin-right: 0 !important;
                     }
 
                     #filtres button:not(:first-child)
@@ -711,7 +725,6 @@ a
                     #infos
                     {
                         display: flex;
-                        justify-content: space-between;
                         align-items: center;
                         margin-bottom: 0;
                     }
