@@ -195,10 +195,16 @@ a
         text-align: center;
     }
 
-    /* Pour avoir le placeholder en noir plutôt qu'en gris*/
+    /* Pour avoir le placeholder en noir plutôt qu'en gris dans Firefox */
     #formulaireRecherche input::placeholder
     {
         opacity: 1;
+    }
+
+    /* Pour avoir le placeholder en noir plutôt qu'en gris dans Google Chrome */ 
+    ::placeholder
+    {
+        color: #000000;
     }
 
     #boutonRecherche
