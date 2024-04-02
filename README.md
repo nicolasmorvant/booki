@@ -83,7 +83,7 @@
 ###
 ## Technologies utilisées
 
-HTML5 et CSS3 (avec flexbox)
+![HTML5 & CSS3](https://www.webdevelopmenthelp.net/wp-content/uploads/2015/09/Advantages-of-HTML5-and-CSS3.png)
 
 
 ### 
