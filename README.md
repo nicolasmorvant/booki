@@ -112,7 +112,8 @@ git config --global merge.tool vimdiff
 
 # Récupération du projet
 git clone https://github.com/OpenClassrooms-Student-Center/booki-starter-code
-git remote set-url origin https://github.com/nicolasmorvant/booki.git
+git remote set-url origin git@github.com:nicolasmorvant/booki.git
+
 ```
 
 ### 
