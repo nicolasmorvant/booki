@@ -485,6 +485,11 @@ a
     {
         margin-bottom: 15px;
     }
+
+    footer a:hover
+    {
+        color: var(--main-color);
+    }
     
 
 /* FIN FOOTER */
