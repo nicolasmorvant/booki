@@ -94,13 +94,6 @@ a
     margin-bottom: 30px;
 }
 
-/*Utilisés pour les cards et les sous-titres*/
-.petiteMarge
-{
-    margin-bottom: 8px;
-}
-
-
 /* HEADER */
 
     header
@@ -156,6 +149,7 @@ a
     {
         font-weight: 700;
         font-size: 22px;
+        margin-bottom: 8px;
     }
 
     #formulaireRecherche
@@ -297,37 +291,60 @@ a
         width: 65%;
     }
 
-    #hebergements .card-content
-    {
-        padding-left: 15px;
-    }
-
-    #first-row, #second-row
+    #hebergements-cards
     {
         display: flex;
         justify-content: space-between;
-        align-items: center;
         flex-wrap: wrap;
     }
 
-    #first-row a, #second-row a
+    #hebergements-cards a
     {
-        width: 31%;
+        width: 31%;   
     }
 
-    #hebergements .card img
+    #hebergements-cards .card
+    {
+        height: 100%;
+    }
+
+    #hebergements-cards .card img
     {
         width: 100%;
-        height: auto;
+        height: 59%;
         max-height: 124px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
+    }
+
+    #hebergements-cards .card-content
+    {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hebergements-cards .card-title
+    {
+        padding-bottom: 5px;
+        padding-top: 3px;
+    } 
+
+    #hebergements-cards .card-subtitle
+    {
+        margin-bottom: 3px;
+        font-size: 14px;
     }
 
     #lienAfficherPlus
     {
         font-size: 18px;
         font-weight: 700;   
+    }
+
+    #lienAfficherPlus:hover
+    {
+        color: var(--main-color);
     }
 
 /* FIN HÉBERGEMENTS */
@@ -400,12 +417,13 @@ a
     {
         display: flex;
         justify-content: space-between;
+        max-height: 440px;
     }
 
     #resultatsActivites a
     {
         width: 23%;
-        max-height: 440px;
+        height: 100%;
     }
 
     #resultatsActivites .card
@@ -429,13 +447,13 @@ a
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 20px;  
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     #resultatsActivites .card-title
     {
         font-weight: 700;
-        
     }
 
 /* FIN ACTIVITES */
@@ -475,7 +493,6 @@ a
 /* RESPONSIVE */
 
     /* MEDIA QUERIES */
-
 
     /* GENERAL */
 
@@ -528,11 +545,6 @@ a
 
 
             /* ACTIVITES */
-
-                #resultatsActivites a
-                {
-                    max-height: 270px;
-                }
 
                 #resultatsActivites .card img
                 {
@@ -742,20 +754,6 @@ a
 
                 /* FIN INFOS */
 
-                /* RÉSULTATS */
-
-                    #resultatsActivites .card-content
-                    {
-                        padding-left: 10px;
-                    }
-
-                    #resultatsActivites .card-title
-                    {
-                        font-size: 14px;
-                    }
-
-                /* FIN RÉSULTATS */
-
 
                 /* HEBERGEMENTS ET POPULAIRES */
                 
@@ -772,7 +770,7 @@ a
                         padding-right: 20px;
                     }
 
-                    #populaires .populaires-cards, #first-row, #second-row
+                    #populaires .populaires-cards, #hebergements-cards
                     {
                         flex-direction: column;
                     }
@@ -810,14 +808,9 @@ a
                             background-color: #FFFFFF !important;
                         }
 
-                        #hebergements h2, #first-row
+                        #hebergements h2, #hebergements-cards a
                         {
                             margin-bottom: 0 !important;
-                        }
-
-                        #first-row, #second-row
-                        {
-                            margin-bottom: 15px;
                         }
 
                     /* FIN HÉBERGEMENTS */ 
@@ -837,7 +830,7 @@ a
                     #resultatsActivites
                     {
                         flex-direction: column;
-
+                        max-height: none;
                     }
 
                     #resultatsActivites a
@@ -846,9 +839,9 @@ a
                         margin-bottom: 15px;
                     }
 
-                    #resultatsActivites h3
+                    #resultatsActivites .card-content
                     {
-                        font-size: 16px !important;
+                        padding-left: 10px;
                     }
 
                 /* FIN ACTIVITÉS */
