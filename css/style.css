@@ -215,6 +215,11 @@ a
         border-bottom-right-radius: 15px;
     }
 
+    #boutonRecherche:hover
+    {
+        opacity: 0.8;
+    }
+
 
     /* Filtres */
     #filtres
