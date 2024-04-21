@@ -296,6 +296,9 @@ a
     #hebergements 
     {
         width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     #hebergements-cards
@@ -862,6 +865,7 @@ a
                     {
                         background-color: #FFFFFF;
                         padding-bottom: 50px;
+                        padding-top: 50px;
                     }
 
                     #resultatsActivites
@@ -891,6 +895,7 @@ a
                 footer
                 {
                     flex-direction: column;
+                    padding: 10px;
                 }
 
                 #propos
